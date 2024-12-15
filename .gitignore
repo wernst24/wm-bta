@@ -1,0 +1,34 @@
+# Ignore backup and autosave files
+*.nb~
+*.nb.bak
+*.asv
+
+# Ignore Mathematica initialization files (optional)
+init.m
+init2.m
+
+# Ignore system-specific files
+*.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.~*
+
+# Ignore compiled files
+*.mx
+*.exe
+*.dll
+*.so
+*.out
+*.log
+
+# Ignore package binary cache
+*.ma
+
+# Ignore build artifacts (if you're compiling or creating packages)
+build/
+dist/
+
+# Ignore notebooks in private or working directories (optional)
+Private/
